@@ -1,6 +1,10 @@
-body {
+html {
     font-family: Arial, Helvetica, sans-serif;
-    background: url("https://goo.gl/SevSxy");
+    background: url("https://goo.gl/Hns92c") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* The Modal (background) */
