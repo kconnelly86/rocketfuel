@@ -6,6 +6,7 @@ rgb of orange : rgb(228, 121, 27)
 
 
 html {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     background: url("https://goo.gl/Hns92c") no-repeat center center fixed;
    -webkit-background-size: cover;
@@ -13,9 +14,10 @@ html {
    -o-background-size: cover;
    background-size: cover;
   } 
-  .banner{
+  .masthead{
+    font-family: 'Roboto Slab', serif;
     font-size: 50px;
-     color: white;
+    color: white;
   }
   .intro {
       color: white;
@@ -65,6 +67,7 @@ html {
 /* Modal Content */
 
 .modal-content {
+    font-family: 'Roboto Condensed', sans-serif;
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
