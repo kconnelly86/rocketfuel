@@ -5,7 +5,7 @@ rgb of orange : rgb(228, 121, 27)
 */
 
 
-html {
+body  {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     background: url("https://goo.gl/Hns92c") no-repeat center center fixed;
@@ -13,7 +13,11 @@ html {
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-  } 
+   
+   }
+   
+   
+    
   .masthead{
     font-family: 'Roboto Slab', serif;
     font-size: 50px;
@@ -30,13 +34,44 @@ html {
       margin-right: auto;
   }
 
-  .floating-box {
+.orange:after{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(228, 121, 27, 0.5);
+    z-index: -1;
+}
+  .card {
       display: inline-block;
       width: 250px;
       height: 350px;
       margin: 10px;
       background-color: white;
-      box-shadow: 0 0 30px #000000
+      box-shadow: 0 0 30px #000000;
+
+  }
+      
+
+ .card h3 {
+    background: #0094ff;
+    color: white;
+    padding: 10px;
+    }
+
+      .card p {
+          color: #333;
+          padding: 10px;
+      }
+
+      
+
+  .top-info {
+      width: 250px;
+      height: 50px;
+      
   }
 
 /* The Modal (background) */
@@ -57,7 +92,7 @@ html {
     /* Full width */
     height: 100%;
     /* Full height */
-    overflow: auto;
+    overflow: scroll;
     /* Enable scroll if needed */
     background-color: rgb(0, 0, 0);
     /* Fallback color */
@@ -65,11 +100,25 @@ html {
     /* Black w/ opacity */
 }
 /* Modal Button */
-#myBtn {
-  margin-top: 210px;   
+#myBtn1 {   
   color: #E4791B;
   font-family: 'Roboto Slab', serif;
-
+  position: relative;
+  bottom: 10px;
+  
+}
+#myBtn2 {
+    color: #E4791B;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    bottom: 10px;
+}
+#myBtn3 {
+    color: #E4791B;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    bottom: 10px;
+    
 }
 
 /* Modal Content */
@@ -81,6 +130,7 @@ html {
     padding: 20px;
     border: 1px solid #888;
     width: 50%;
+    overflow: scroll;
 }
 
 /* The Close Button */
