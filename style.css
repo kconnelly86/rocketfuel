@@ -68,13 +68,15 @@ body  {
 }
 /* info on card under h3 */
 .card p {
-    color: #333;
+    text-align: left;
+    color: rgb(0, 0, 0);
 }
 /* space for info on card under h3 */
 .top-info {
-    width: 250px;
+    width: 215px;
     height: 220px;
     overflow: auto;
+    margin-left: 20px;
 }
 
 /* The Modal (background) */
@@ -118,6 +120,7 @@ body  {
 }
 
 header {
+    font-family: 'Roboto Condensed', sans-serif;
     background: #0094ff;
     color: white;
     padding: 10px;
@@ -128,10 +131,12 @@ header {
 }
 
 article {
+    font-family: 'Roboto', sans-serif;
     top: 0;
     bottom: 0;
     width: 100%;
     /* can use left: 0; right: 0; as well */
+    text-align: left;
 }
 /* Button for modal pop up */
 button.button {
