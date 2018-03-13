@@ -61,7 +61,7 @@ body  {
 .card h3 {
     background: #0094ff;
     color: white;
-    padding: 10px;
+    padding: 18px;
     margin: auto;
     text-align: left;
     
@@ -127,16 +127,18 @@ header {
     margin: auto;
     text-align: left;
     z-index: 1;
+    font-size: 25px;
     
 }
 
-article {
+.article {
     font-family: 'Roboto', sans-serif;
     top: 0;
     bottom: 0;
-    width: 100%;
+    width: 96%;
     /* can use left: 0; right: 0; as well */
     text-align: left;
+    margin-left: 18px;
 }
 /* Button for modal pop up */
 button.button {
@@ -151,6 +153,7 @@ button.button {
     padding: 0px 0px 0px 0px; /*this could fix the position of the button changing the first number*/
     font-size: 16px;
     font-weight: bold;
+    margin-left: 20px;
 }
 /* hover function for modal pop up */
 button.button:hover {
