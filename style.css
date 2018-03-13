@@ -18,21 +18,22 @@ body  {
    
    
     
-  .masthead{
+.masthead{
     font-family: 'Roboto Slab', serif;
     font-size: 50px;
     color: white;
-  }
-  .intro {
-      color: white;
-  }
+}
 
-  .container {
-      width: 60%;
-      height: 100%;
-      margin-left: auto;
-      margin-right: auto;
-  }
+.intro {
+    color: white;
+}
+
+.container {
+    width: 60%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .orange:after{
     content: '';
@@ -44,35 +45,32 @@ body  {
     background: rgba(228, 121, 27, 0.5);
     z-index: -1;
 }
-  .card {
-      display: inline-block;
-      width: 250px;
-      height: 350px;
-      margin: 10px;
-      background-color: white;
-      box-shadow: 0 0 30px #000000;
 
-  }
+.card {
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 0 30px #000000;
+
+}
       
-
- .card h3 {
+.card h3 {
     background: #0094ff;
     color: white;
     padding: 10px;
-    }
+}
 
-      .card p {
-          color: #333;
-          padding: 10px;
-      }
+.card p {
+    color: #333;
+    padding: 10px;
+}
 
-      
-
-  .top-info {
-      width: 250px;
-      height: 50px;
-      
-  }
+.top-info {
+    width: 250px;
+    height: 50px;
+}
 
 /* The Modal (background) */
 
@@ -103,7 +101,7 @@ body  {
 button.button {
     color: #E4791B;
     font-family: 'Roboto Slab', serif;
-    position: relative;
+    position: relative; /* these may change once they go inside the cards..........*/
     background: none;
     border-top: none;
     border-right: none;
