@@ -6,7 +6,7 @@ $(".button").on("click", function () {
 
 $(".modal").on("click", function (e) {
     var className = e.target.className;
-    if (className === "modal" || className === "close") {
+    if (className === "modal" || className == "close") {
         $(this).closest(".modal").hide();
     }
 });
