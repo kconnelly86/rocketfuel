@@ -24,10 +24,11 @@ body  {
 /* paragraph under masthead */
 .intro {
     color: white;
+    text-align: justify;
 }
 /* div containing all modals */
 .container {
-    width: 60%;
+    width: 58%;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -59,6 +60,7 @@ body  {
     color: white;
     padding: 10px;
     margin: auto;
+    text-align: left;
     
 }
 /* info on card under h3 */
@@ -98,6 +100,37 @@ body  {
     /* Black w/ opacity */
     
 }
+
+/* Modal Content */
+
+.modal-content {
+    display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #fefefe;
+    margin: auto;
+    /* padding: 20px; */
+    border: 1px solid #888;
+    width: 50%;
+    height: 20%;
+    overflow: auto;
+}
+
+header {
+    background: #0094ff;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    text-align: left;
+    z-index: 1;
+    
+}
+
+article {
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    /* can use left: 0; right: 0; as well */
+}
 /* Button for modal pop up */
 button.button {
     color: #E4791B;
@@ -115,19 +148,6 @@ button.button {
 /* hover function for modal pop up */
 button.button:hover {
     color: #0079C2
-}
-
-/* Modal Content */
-.modal-content {
-    font-family: 'Roboto Condensed', sans-serif;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 50%;
-    height: 20%;
-    overflow: auto;    
-   
 }
 
 /* The Close Button */
