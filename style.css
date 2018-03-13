@@ -13,28 +13,25 @@ body  {
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-   
-   }
-   
-   
-    
+}
+ /*Go rocketfuel for all your website needs  */
 .masthead{
     font-family: 'Roboto Slab', serif;
     font-size: 50px;
     color: white;
 }
-
+/* paragraph under masthead */
 .intro {
     color: white;
 }
-
+/* div containing all modals */
 .container {
     width: 60%;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
 }
-
+/* div containing orange opacity over all */
 .orange:after{
     content: '';
     position: fixed;
@@ -45,35 +42,33 @@ body  {
     background: rgba(228, 121, 27, 0.5);
     z-index: -1;
 }
-
+/* each card inside the container */
 .card {
     display: inline-block;
     width: 250px;
     height: 350px;
-    margin: 10px;
+    margin: 10px 10px 10px 10px;
     background-color: white;
     box-shadow: 0 0 30px #000000;
-
 }
-      
+/* each header in card */
 .card h3 {
     background: #0094ff;
     color: white;
     padding: 10px;
 }
-
+/* info on card under h3 */
 .card p {
     color: #333;
-    padding: 10px;
 }
-
+/* space for info on card under h3 */
 .top-info {
     width: 250px;
     height: 50px;
 }
 
 /* The Modal (background) */
-
+/* the pop up itself */
 .modal {
     display: none;
     /* Hidden by default */
@@ -98,6 +93,7 @@ body  {
     background-color: rgba(0, 0, 0, 0.4);
     /* Black w/ opacity */
 }
+/* Button for modal pop up */
 button.button {
     color: #E4791B;
     font-family: 'Roboto Slab', serif;
@@ -106,17 +102,17 @@ button.button {
     border-top: none;
     border-right: none;
     border-left: none;
-    border-bottom: #02274a 1px solid;
-    padding: 0 0 3px 0;
+    border-bottom: none;
+    padding: 135px 0 0 0; /*this could fix the position of the button changing the first number*/
     font-size: 16px;
+    font-weight: bold;
 }
+/* hover function for modal pop up */
 button.button:hover {
-    border-bottom: #a99567 1px solid;
-    color: #a99567;
+    color: #0079C2
 }
 
 /* Modal Content */
-
 .modal-content {
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #fefefe;
@@ -128,7 +124,6 @@ button.button:hover {
 }
 
 /* The Close Button */
-
 .close {
     color: #E4791B;
     float: right;
