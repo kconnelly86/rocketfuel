@@ -81,7 +81,8 @@ body  {
     /* Hidden by default */
     position: fixed;
     /* Stay in place */
-    z-index: 1;
+    /* z-index: 1; */
+    z-index: 8888;
     /* Sit on top */
     margin: auto;
     padding-top: 200px;
@@ -92,33 +93,28 @@ body  {
     /* Full width */
     height: 100%;
     /* Full height */
-    overflow: scroll;
+    overflow: auto;
     /* Enable scroll if needed */
     background-color: rgb(0, 0, 0);
     /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4);
     /* Black w/ opacity */
 }
-/* Modal Button */
-#myBtn1 {   
-  color: #E4791B;
-  font-family: 'Roboto Slab', serif;
-  position: relative;
-  bottom: 10px;
-  
-}
-#myBtn2 {
+button.button {
     color: #E4791B;
     font-family: 'Roboto Slab', serif;
     position: relative;
-    bottom: 10px;
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: #02274a 1px solid;
+    padding: 0 0 3px 0;
+    font-size: 16px;
 }
-#myBtn3 {
-    color: #E4791B;
-    font-family: 'Roboto Slab', serif;
-    position: relative;
-    bottom: 10px;
-    
+button.button:hover {
+    border-bottom: #a99567 1px solid;
+    color: #a99567;
 }
 
 /* Modal Content */
@@ -130,13 +126,13 @@ body  {
     padding: 20px;
     border: 1px solid #888;
     width: 50%;
-    overflow: scroll;
+   
 }
 
 /* The Close Button */
 
 .close {
-    color: #aaaaaa;
+    color: #E4791B;
     float: right;
     font-size: 28px;
     font-weight: bold;

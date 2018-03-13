@@ -9,95 +9,81 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Document</title>
  
 </head>
 
 <body>
 
-<div class="orange">
-    <div class="container">
+<div class="orange"> <!-- Begin class orange -->
+    <div class="container"> <!-- Begin class container -->
         <h1 class="masthead">Go Rocketfuel for All Your Website Needs</h1>
         <p class="intro"> Vestibulum feugiat era ac massa iaculis cursus. Praesent pretium aliquet tortor et consectetur. Integer ac lacinia metus, ac ornare purus. Maecenas aliquet ligula massa, eu vestibulum ex rhoncus ac. Etiam lacinia est eget nibh laoreet lobortis. In eros felis, dictum sodales purus vel, imperdiet blandit ante. Ut euismod ex sit amet mauris aliquet, a ornare felis rhoncus. Maecenas ac cursus libero, u feugiat erat. Ut eu finibus ligula, nec congue sapien. Donec non tellus elit. Ut leo nisl, finibus non rutrum quis, luctus
         </p>
+<!-- Modal Buttons -->
+        <p>
+            <button class="button" data-modal="#modalOne">Read More >></button>
+        </p>
+        <p>
+            <button class="button" data-modal="#modalTwo">Read More >></button>
+        </p>
+        <p>
+            <button class="button" data-modal="#modalThree">Read More >></button>
+        </p>
 
-        <div class="modal-container">
-            <!-- Modal 1  -->
-            <div class="card">
-                <h3>Title for information box</h3>
-                <p class="top-info"> Maecenas aliquet ligula massa, eu vestibulum ex rhoncus ac. </p>
-            <br>
-                <!-- Trigger/Open The Modal -->
-                <div id="myBtn1"><b>Read More >></b></div>
-                
-                <!-- The Modal -->
-                <div id="myModal1" class="modal">
-                
-                    <!-- Modal content -->
-                    <div class="modal-content">
-                        <span class="close">&times;</span>
-                        <p>modal 1</p>
-                
-                    </div>            
+<!-- Modal Content -->
+
+        <!-- Modal One Start -->
+        <div id="modalOne" class="modal">
+            <div class="modal-content">
+                <div class="contact-form">
+                    <a class="close">&times;</a>
+                    <h2>Ask A Question</h2>
+                    <br>
+                    <p>Vestibulum feugiat era ac massa iaculis cursus. Praesent pretium aliquet tortor et consectetur. Integer ac lacinia metus,
+                    ac ornare purus. Maecenas aliquet ligula massa, eu vestibulum ex rhoncus ac. Etiam lacinia est eget nibh laoreet lobortis.
+                    In eros felis, dictum sodales purus vel, imperdiet blandit ante. Ut euismod ex sit amet mauris aliquet, a ornare felis rhoncus.
+                    Maecenas ac cursus libero, u feugiat erat. Ut eu finibus ligula, nec congue sapien. Donec non tellus elit. Ut leo nisl, finibus
+                    non rutrum quis, luctusVestibulum feugiat era ac massa iaculis cursus. Praesent pretium aliquet tortor et consectetur. Integer ac lacinia metus,
+                    ac ornare purus. Maecenas aliquet ligula massa, eu vestibulum ex rhoncus ac. Etiam lacinia est eget nibh laoreet lobortis.
+                    In eros felis, dictum sodales purus vel, imperdiet blandit ante. Ut euismod ex sit amet mauris aliquet, a ornare felis rhoncus.
+                    Maecenas ac cursus libero, u feugiat erat. Ut eu finibus ligula, nec congue sapien. Donec non tellus elit. Ut leo nisl, finibus
+                    non rutrum quis, luctus</p>
+                    
                 </div>
             </div>
-            <!-- Modal 1 end -->
-
-            <!-- Modal 2 -->
-            <div class="card">
-                <h3>Title for information box</h3>
-                <p class="top-info"> Maecenas aliquet ligula massa, eu vestibulum ex rhoncus ac. </p>
-                <br>
-                <!-- Trigger/Open The Modal -->
-                <div id="myBtn2">
-                    <b>Read More >></b>
-                </div>
-            
-                <!-- The Modal -->
-                <div id="myModal2" class="modal">
-            
-                    <!-- Modal content -->
-                    <div class="modal-content">
-                        <span class="close">&times;</span>
-                        <p>modal 2</p>
-            
-                    </div>
-                </div>
-            </div>
-            <!-- Modal 2 end -->
-
-            <!-- Modal 3 -->
-            <div class="card">
-                <h3>Title for information box</h3>
-                <p class="top-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in tellus id eros malesuada suscipit. Vestibulum feugiat era ac massa iaculis cursus. Praesent pretium aliquet tortor et consectetur. Integer ac lacinia metus, ac ornare purus. Maecenas
-                aliquet ligula massa, eu vestibulum ex rhoncus ac. </p>
-                <br>
-                <!-- Trigger/Open The Modal -->
-                <div id="myBtn3"><b>Read More >></b></div>
-                
-                <!-- The Modal -->
-                <div id="myModal3" class="modal">
-                
-                    <!-- Modal content -->
-                    <div class="modal-content">
-                        <span class="close">&times;</span>
-                        <p>modal 3</p>
-                
-                    </div>           
-                </div>
-            </div>
-            <!-- Modal 3 end -->
         </div>
-    </div>
-</div>
+        <!-- Modal One End -->
 
+        <!-- Modal Two Start -->
+        <div id="modalTwo" class="modal">
+            <div class="modal-content">
+                <div class="contact-form">
+                    <span class="close">&times;</span>
+                    <h2>Haters Gonna Hate</h2>
+                    <p>modal 2 waitng on ipsum</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Two End -->
+        
+        <!-- Modal Three Start -->
+        <div id="modalThree" class="modal">
+            <div class="modal-content">
+                <div class="contact-form">
+                    <span class="close">&times;</span>
+                    <h2>info</h2>
+                    <p>Empty waiting on info</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Three End -->
 
-
-
-
-
-
+    </div> <!-- End class container -->
+</div> <!-- End class orange -->
 
 
     <script src="rocket.js"></script>
