@@ -33,6 +33,8 @@ body  {
     height: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 70px;
+    
 }
 /* div containing orange opacity over all */
 .orange:after{
@@ -108,8 +110,7 @@ body  {
     display: inline-block;
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #fefefe;
-    margin: auto;
-    /* padding: 20px; */
+    margin-top: 150px;
     border: 1px solid #888;
     width: 50%;
     height: 20%;
