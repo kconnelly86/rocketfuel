@@ -47,15 +47,18 @@ body  {
     display: inline-block;
     width: 250px;
     height: 350px;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 10px;
     background-color: white;
     box-shadow: 0 0 30px #000000;
+    text-overflow: inherit;
 }
 /* each header in card */
 .card h3 {
     background: #0094ff;
     color: white;
     padding: 10px;
+    margin: auto;
+    
 }
 /* info on card under h3 */
 .card p {
@@ -64,7 +67,8 @@ body  {
 /* space for info on card under h3 */
 .top-info {
     width: 250px;
-    height: 50px;
+    height: 220px;
+    overflow: auto;
 }
 
 /* The Modal (background) */
@@ -74,7 +78,6 @@ body  {
     /* Hidden by default */
     position: fixed;
     /* Stay in place */
-    /* z-index: 1; */
     z-index: 8888;
     /* Sit on top */
     margin: auto;
@@ -86,12 +89,13 @@ body  {
     /* Full width */
     height: 100%;
     /* Full height */
-    overflow: auto;
+    text-overflow: auto;
     /* Enable scroll if needed */
     background-color: rgb(0, 0, 0);
     /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4);
     /* Black w/ opacity */
+    
 }
 /* Button for modal pop up */
 button.button {
@@ -103,7 +107,7 @@ button.button {
     border-right: none;
     border-left: none;
     border-bottom: none;
-    padding: 135px 0 0 0; /*this could fix the position of the button changing the first number*/
+    padding: 0px 0px 0px 0px; /*this could fix the position of the button changing the first number*/
     font-size: 16px;
     font-weight: bold;
 }
@@ -120,6 +124,8 @@ button.button:hover {
     padding: 20px;
     border: 1px solid #888;
     width: 50%;
+    height: 20%;
+    overflow: auto;    
    
 }
 
