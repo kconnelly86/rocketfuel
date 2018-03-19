@@ -193,3 +193,16 @@ button.button:hover {
     height: 100px;
     background-image: url(image.png);
 }
+
+@media only screen and (max-width: 414px) {
+    .modal-content {
+        display: inline-block;
+        font-family: 'Roboto Condensed', sans-serif;
+        background-color: #fefefe;
+        margin-top: 15px;
+        border: 1px solid #888;
+        width: 75%;
+        height: 40%;
+        overflow: auto;
+    }
+}
