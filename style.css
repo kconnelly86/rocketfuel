@@ -138,7 +138,7 @@ header {
     width: 96%;
     /* can use left: 0; right: 0; as well */
     text-align: left;
-    margin-left: 18px;
+    margin-left: 6px;
 }
 /* Button for modal pop up */
 button.button {
